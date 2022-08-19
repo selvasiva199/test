@@ -9,7 +9,7 @@ public class ArithmeticExceptionExample {
 		int c=a/b;
 		System.out.println(c);
 		}catch(ArithmeticException ae) {
-			System.out.println("dont follow the method");
+			System.out.println("dont divide using zero");
 		}
 		System.out.println("Hello");
 		System.out.println("Hi");

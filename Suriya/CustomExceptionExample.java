@@ -14,7 +14,7 @@ public class CustomExceptionExample {
 		}
 		
 		}catch(AgeExceptionEx ae) {
-			System.out.println("age is less 18");
+			System.out.println("age is less 18 ");
 			System.out.println(ae);
 			System.out.println(ae.getMessage());
 		}

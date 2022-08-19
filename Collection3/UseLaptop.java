@@ -18,7 +18,7 @@ public class UseLaptop {
 		laptopDetails.add(l4);
 		laptopDetails.add(l5);
 		laptopDetails.add(l6);
-		//laptopDetails.stream().map(x->x.getBrand().concat(x.getColor())).forEach(y->System.out.println(y));
+		laptopDetails.stream().map(x->x.getBrand().concat(x.getColor())).forEach(y->System.out.println(y));
 		//List<String>l=laptopDetails.stream().map(x->x.getBrand().concat(x.getColor())).collect(Collectors.toList());
 		//laptopDetails.stream().filter(y->y.getColor().equals("white")).forEach(z->System.out.println(z));
 		//List<Laptop>l=laptopDetails.stream().filter(y->y.getColor().equals("white")).collect(Collectors.toList());
@@ -27,8 +27,8 @@ public class UseLaptop {
 		//System.out.println(laptopCount);
 		//long lenovoCount=laptopDetails.stream().filter(x->x.getBrand().equals("lenovo")).count();
 		//System.out.println(lenovoCount);
-		long capsCount=laptopDetails.stream().map(x->x.getBrand().toUpperCase()).count();
-		System.out.println(capsCount);
+		//long capsCount=laptopDetails.stream().map(x->x.getBrand().toUpperCase()).count();
+		//System.out.println(capsCount);
 		
 		
 	

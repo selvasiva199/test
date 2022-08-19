@@ -1,5 +1,7 @@
 package Collection1;
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 public class Pen {
 	public static void main(String[] args) {
 		ArrayList<String>brandName=new ArrayList<>();
@@ -7,9 +9,13 @@ public class Pen {
 		brandName.add("cello");
 		brandName.add(2,"finix");
 		brandName.add("camlin");
-		brandName.add("hero");
+		brandName.add("cello");
+		
 		//brandName.remove(2);
-		//System.out.println(brandName);
+		System.out.println(brandName);
+		
+		Set<String>s=new HashSet<String>(brandName);
+		System.out.println(s);
 		//String a="";
 		//for(int i=0; i<brandName.size(); i++) {
 			//a=a+brandName.get(i);
@@ -24,7 +30,8 @@ public class Pen {
 			//}
 		//}
 		//System.out.println(a);
-		brandName.forEach((xy)->System.out.println((xy)));
+		//brandName.forEach((xy)->System.out.println((xy)));
+		
 		}
 		
 		}
